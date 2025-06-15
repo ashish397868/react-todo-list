@@ -32,11 +32,14 @@ hr{
 
 .cross-svg {
   fill: gray;
-}
-.cross-svg{
-    width: 20px;
+      width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+#cross-btn{
+    background: none;
+    border: none;
 }
 
 #modal-textarea-section{
