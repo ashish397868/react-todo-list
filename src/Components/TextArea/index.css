@@ -1,0 +1,15 @@
+.textarea {
+  margin: 20px;
+  height: 10rem;
+  width: 24rem;
+  padding-top: 0;
+  resize: none;
+  padding-top: 5px;
+  font-size: 16px;
+  border: 2px solid navy;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: darkblue;
+}

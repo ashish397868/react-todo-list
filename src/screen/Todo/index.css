@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'arial';
+  font-family: "arial";
 }
 
-nav {
+.nav-todo {
   color: white;
   background-color: navy;
   text-align: center;
@@ -20,88 +20,36 @@ nav {
   flex-direction: column;
 }
 
-#textarea {
-  margin: 20px;
-  height: 10rem;
-  width: 24rem;
-  padding-top: 0;
-  resize: none;
-  padding-top: 5px;
-  font-size: 16px;
-  border:2px solid navy;
-}
-
-#add-Task{
-  width: 24rem;
-  color: white;
-  background-color: navy;
-  border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-}
-
 #add-Task:hover {
   opacity: 0.8;
 }
 
-#task-list{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    height: 300px;
-    width: 60%;
-    margin:20px auto;
-    padding:10px;
-    padding-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    overflow: auto;
-    box-sizing: border-box;
+#task-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 300px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  padding-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  box-sizing: border-box;
 }
 
-.task-item{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+.task-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 
-.task-text{
-    border-left: 5px solid red;
-    padding-left: 10px;
-    height: 40px;
-    padding-top: 12px;
-    color: navy;
-}
-
-.editBtn{
-    color: white;
-    background-color: navy;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
-    width: 75px;
-    margin: 2px;
-    border: none;
-}
-.editBtn:hover {
-    opacity: 0.8;
-}
-
-.deleteBtn{
-    color: white;
-    background-color: red;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
-    width: 75px;
-    margin: 2px;
-    border: none;
-}
-
-.deleteBtn:hover {
-    opacity: 0.8;
+.task-text {
+  border-left: 5px solid red;
+  padding-left: 10px;
+  height: 40px;
+  padding-top: 12px;
+  color: navy;
 }
